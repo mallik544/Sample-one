@@ -1,8 +1,6 @@
 node {  
     stage('Build') { 
-        sh """
-        pwd
-        """
+        sh " echo '****' "
     }
     stage('Test') { 
         // 
