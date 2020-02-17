@@ -21,6 +21,8 @@ pipeline {
                 echo "Hello World!"
                 bat '''
                     dir
+                    cd bat-scripts
+                    dir
                     
                  '''
             }
