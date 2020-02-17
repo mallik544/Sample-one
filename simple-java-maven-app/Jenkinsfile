@@ -23,6 +23,7 @@ pipeline {
                     dir
                     cd bat-scripts
                     dir
+                    sum.bat
                     
                  '''
             }
